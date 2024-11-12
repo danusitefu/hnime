@@ -98,8 +98,8 @@ const app = express()
 	.all('/', (_, res) => {
 		let baseUrl = `https://${_.get('host')}`
 		res.json({
-		author: `Mroy25`,
-		WA: `081215524272`,
+		author: `Nhentai`,
+		TIKTOK: `@danukiding`,
 		runtime: new Date(process.uptime() * 1000).toTimeString().split(' ')[0],
 		endpoint: {
 			detail: `${baseUrl}/detail?code=212121`,
